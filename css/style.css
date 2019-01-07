@@ -1,0 +1,324 @@
+@import "normalize.css";
+@import "fontAwesome.css";
+
+/* ------ RESET ------ */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+figure {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* ---------------------------------------------
+COMMUN
+--------------------------------------------- */
+.block-center .inner {
+  width: 80rem;
+  margin: 0 auto;
+}
+.block-zone {
+  background: white;
+}
+
+.structure{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* ---------------------------------------------
+NAVIGATION
+--------------------------------------------- */
+
+.block-nav .logo {
+  height: 50px;
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.block-nav {
+  background: white;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+  top: 0;
+  justify-content: center;
+}
+.block-nav .inner {
+  display: flex;
+}
+.block-nav .menu {
+  overflow: hidden;
+  width: 100%;
+}
+.block-nav .menu li {
+  /* display: inline-block; */
+  list-style: none;
+  float: left;
+  font-family: tahoma, comic, cursive;
+
+}
+
+.block-nav .menu {
+  padding-top: 5px;
+}
+.block-nav .menu a {
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 15px;
+  padding: 10px 0 5px 0;
+
+}
+.block-nav .menu .active{
+  border-bottom: 2px solid #FF4500;
+}
+.icons {
+display: flex;
+padding: 7.5px;
+color: black;
+}
+
+/* ---------------------------------------------
+HEADER
+--------------------------------------------- */
+
+.block-header .karting-fond {
+  width: 100vw;
+  opacity: .5;
+}
+
+.block-header .logo-center {
+  position: absolute;
+  z-index: 2;
+  left: 20%;
+  top: 15%;
+}
+
+.block-header {
+  position: relative;
+  margin-top: 20px;
+}
+.block-header .karting-fond {
+  margin-bottom: 1rem;
+}
+
+
+/* ---------------------------------------------
+PAGE NEWS
+--------------------------------------------- */
+
+
+
+
+
+/* ---------------------------------------------
+CENTER
+--------------------------------------------- */
+
+
+.title {
+  /* padding-bottom: 10px; */
+}
+.main-title {
+  margin-bottom: 10px;
+}
+.block-center {
+  background: white;
+}
+/* ---------------------------------------------
+BLOCK-LEFT
+--------------------------------------------- */
+
+.block-left {
+  flex-basis: 60%;
+}
+.block-left .article {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.block-left .photo {
+  margin-right: 10px;
+}
+.block-left .rubrique-1 .main-title {
+  border-bottom: 3.5px solid #FF4500;
+  font-size: 24pt;
+  width: 365px;
+  font-family: tahoma, comic, cursive;
+}
+.block-left .rubrique-2 .main-title {
+  border-bottom: 3.5px solid #FF4500;
+  font-size: 24pt;
+  width: 295px;
+  font-family: tahoma, comic, cursive;
+}
+.block-left .rubrique-3 .main-title {
+  border-bottom: 3.5px solid #FF4500;
+  font-size: 24pt;
+  width: 225px;
+  font-family: tahoma, comic, cursive;
+}
+.block-left .actu-1 {
+  font-size: 0.5rem;
+  position: absolute;
+  background: rgba(0,0,0,0.7) ;
+  color: white;
+  padding: 2rem 0.82rem;
+  font-style: italic;
+  font-size: 0.75rem;
+  bottom: 0.2rem;
+  left: 0;
+
+}
+.block-left .actu-2 {
+  position: absolute;
+  background: rgba(0,0,0,0.7) ;
+  color: white;
+  padding: 2rem 0.49rem;
+  font-style: italic;
+  font-size: 0.75rem;
+  bottom: 0.2rem;
+
+}
+.block-left .actu-3 {
+  position: absolute;
+  background: rgba(0,0,0,0.7) ;
+  color: white;
+  padding: 2rem 1.170rem;
+  font-style: italic;
+  font-size: 0.75rem;
+  bottom: 0.2rem;
+}
+.block-left .actu-4 {
+  position: absolute;
+  background: rgba(0,0,0,0.7) ;
+  color: white;
+  padding: 2rem 0.4rem;
+  font-style: italic;
+  font-size: 0.68rem;
+  bottom: 0.2rem;
+}
+.block-left .actu-5 {
+  position: absolute;
+  background: rgba(0,0,0,0.7) ;
+  color: white;
+  padding: 2rem 1.1rem;
+  font-style: italic;
+  font-size: 0.68rem;
+  bottom: 0.2rem;
+}
+.block-left .actu-6 {
+  position: absolute;
+  background: rgba(0,0,0,0.7) ;
+  color: white;
+  padding: 2rem 4.1rem;
+  font-style: italic;
+  font-size: 0.68rem;
+  bottom: 0.2rem;
+}
+.block-left .actu-7 {
+  position: absolute;
+  background: rgba(0,0,0,0.7) ;
+  color: white;
+  padding: 2rem 4.1rem;
+  font-style: italic;
+  font-size: 0.68rem;
+  bottom: 0.2rem;
+}
+
+.block-left .article-1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.block-left .article-2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.block-left .article-3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ---------------------------------------------
+BLOCK-RIGHT
+--------------------------------------------- */
+
+.block-right{
+  flex-basis: 30%;
+  float: right;
+  margin-left: 80px;
+}
+.block-right .rubrique-4 .main-title {
+  border-bottom: 3.5px solid #FF4500;
+  font-size: 24pt;
+  width: 170px;
+  display: flex;
+  text-align: right;
+  font-family: tahoma, comic, cursive;
+}
+.block-right .rubrique-4 {
+  display: block;
+  width: 100%;
+}
+
+/* ---------------------------------------------
+BLOCK-FOOTER
+--------------------------------------------- */
+.block-footer {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: tahoma, comic, cursive;
+
+}
+
+
+/* ---------------------------------------------
+PAGE NEWS
+--------------------------------------------- */
+
+
+
+/* ---------------------------------------------
+CENTER
+--------------------------------------------- */
+
+
+.block-center .block-top .titles {
+  display: flex;
+  justify-content: space-between;
+font-size: 1rem;
+font-family: tahoma, comic, cursive;
+
+}
